@@ -12,22 +12,22 @@ const siteData = {
       {
         name: "Email",
         url: "mailto:aoxueDai0219@gmail.com",
-        icon: "figures/email.svg",
+        icon: "figures/icons/email.svg",
       },
       {
         name: "Google Scholar",
         url: "https://scholar.google.com/citations?user=36loOMgAAAAJ&hl=zh-CN",
-        icon: "figures/google-scholar.svg",
+        icon: "figures/icons/google-scholar.svg",
       },
       {
         name: "GitHub",
         url: "https://github.com/island-zero",
-        icon: "figures/github-fill.svg",
+        icon: "figures/icons/github-fill.svg",
       },
       {
         name: "Xiaohongshu",
         url: "https://www.xiaohongshu.com/user/profile/65086bf60000000012004513",
-        icon: "figures/xiaohongshu.svg",
+        icon: "figures/icons/xiaohongshu.svg",
       },
     ],
   
