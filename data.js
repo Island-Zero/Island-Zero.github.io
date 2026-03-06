@@ -48,7 +48,7 @@ const siteData = {
   
     news: [
       // Add news items here. Example:
-    //   ÷{ date: "Dec. 2025", content: "Admitted to USTC Master's Program(expect 26 Fall)!" },
+    { date: "Mar. 2026", content: "" },
     ],
   
     publications: [
