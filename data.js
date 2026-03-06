@@ -57,7 +57,9 @@ const siteData = {
     ],
   
     honors: [
-      // { title: "National Scholarship", date: "2025" },
+      { title: "National Scholarship, China", date: "2023-2024" },
+      { title: "National Scholarship, China", date: "2024-2025" },
+      { title: "The Global Campus Artificial Intelligence Algorithm Elite Competition, National Second Prize", date: "2025.12" },
     ],
 
     publications: [
