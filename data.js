@@ -33,7 +33,7 @@ const siteData = {
   
     researchInterests: [
       "Vision-Language Models",
-      "Reinforcement Learning",
+    //   "Reinforcement Learning",
     ],
   
     academicJourney: [
