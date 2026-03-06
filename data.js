@@ -29,6 +29,11 @@ const siteData = {
         url: "https://www.xiaohongshu.com/user/profile/65086bf60000000012004513",
         icon: "figures/icons/xiaohongshu.svg",
       },
+      {
+        name: "CV",
+        url: "cv.html",
+        icon: "figures/icons/cv.svg",
+      },
     ],
   
     researchInterests: [
