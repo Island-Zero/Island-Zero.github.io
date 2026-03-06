@@ -4,14 +4,14 @@ const siteData = {
       photo: "figures/profile.jpg",
       title: "Junior Student in Computer Science and Technology",
       affiliation: "Dalian University of Technology",
-      bio: `Junior student at <a href="https://www.dlut.edu.cn/" target="_blank">Dalian University of Technology</a>, majoring in Computer Science and Technology.`,
-      email: "aoxueDai0219@gmail.com",
+      bio: `Junior student at <a href="https://www.dlut.edu.cn/" target="_blank">Dalian University of Technology</a>, majoring in Computer Science and Technology. Currently, I have a weighted average score of 91.34 and have been awarded the National Scholarship for two consecutive years. My research interests primarily lie in vision-language models and reasoning models.`,
+      email: "AoxueDai0219@gmail.com",
     },
   
     socialLinks: [
       {
         name: "Email",
-        url: "mailto:aoxueDai0219@gmail.com",
+        url: "mailto:AoxueDai0219@gmail.com",
         icon: "figures/icons/email.svg",
       },
       {
