@@ -345,6 +345,38 @@
     border: 1px dashed var(--border);
   }
   
+  /* ── Honors & Awards ── */
+
+  .honors-list {
+    list-style: none;
+  }
+
+  .honor-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 5px 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .honor-item:last-child {
+    border-bottom: none;
+  }
+
+  .honor-title {
+    font-size: 13px;
+    color: var(--text-secondary);
+    font-weight: 500;
+  }
+
+  .honor-date {
+    flex-shrink: 0;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-left: 16px;
+  }
+
   /* ── Publications ── */
   
   .pub-list {

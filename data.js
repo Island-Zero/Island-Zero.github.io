@@ -56,6 +56,10 @@ const siteData = {
     { date: "Mar. 2026", content: "" },
     ],
   
+    honors: [
+      // { title: "National Scholarship", date: "2025" },
+    ],
+
     publications: [
       // ── Example (remove or replace with your real papers) ──
     //   {
