@@ -31,7 +31,7 @@ const siteData = {
       },
       {
         name: "CV",
-        url: "cv.html",
+        url: "cv.html?v=20260617",
         icon: "figures/icons/cv.svg",
       },
     ],
