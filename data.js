@@ -52,8 +52,7 @@ const siteData = {
     ],
   
     news: [
-      // Add news items here. Example:
-    { date: "Mar. 2026", content: "" },
+      { date: "Jul. 2026", content: "One paper has been accepted by ECCV 2026!" },
     ],
   
     honors: [
@@ -95,4 +94,3 @@ const siteData = {
       text: "© 2026 Aoxue Dai. Hosted by GitHub Pages.",
     },
   };
-  
