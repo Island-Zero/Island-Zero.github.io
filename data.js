@@ -52,7 +52,7 @@ const siteData = {
     ],
   
     news: [
-      { date: "Jul. 2026", content: "One paper has been accepted by ECCV 2026!" },
+      { date: "Jul. 2026", content: "One paper was accepted to ECCV 2026!" },
     ],
   
     honors: [
@@ -100,6 +100,7 @@ const siteData = {
       //   ],
       // },
     ],
+    additionalPublications: [],
     footer: {
       text: "© 2026 Aoxue Dai. Hosted by GitHub Pages.",
     },
