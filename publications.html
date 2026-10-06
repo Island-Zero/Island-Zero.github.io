@@ -38,14 +38,14 @@
   </div>
 </footer>
 
-<script src="data.js?v=20260720b"></script>
+<script src="data.js?v=20261006"></script>
 <script>
 (function () {
   const d = siteData;
   const publications = [
     ...(d.publications || []),
     ...(d.additionalPublications || []),
-  ];
+  ].filter((item) => !item.hidden);
 
   document.title = "Publications | " + d.profile.name;
   document.getElementById("nav-name").textContent = d.profile.name;

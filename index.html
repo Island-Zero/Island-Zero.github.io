@@ -95,7 +95,7 @@
   </div>
 </footer>
 
-<script src="data.js?v=20260720b"></script>
+<script src="data.js?v=20261006"></script>
 <script>
 (function () {
   const d = siteData;
@@ -147,11 +147,12 @@
   });
 
   const newsEl = document.getElementById("news-list");
-  if (d.news.length === 0) {
+  const visibleNews = d.news.filter((item) => !item.hidden);
+  if (visibleNews.length === 0) {
     newsEl.innerHTML =
       '<div class="empty-placeholder">News will be updated here. Stay tuned!</div>';
   } else {
-    d.news.forEach((n) => {
+    visibleNews.forEach((n) => {
       const li = document.createElement("li");
       li.className = "news-item";
       li.innerHTML = `
@@ -163,11 +164,12 @@
   }
 
   const honorsEl = document.getElementById("honors-list");
-  if (d.honors.length === 0) {
+  const visibleHonors = d.honors.filter((item) => !item.hidden);
+  if (visibleHonors.length === 0) {
     honorsEl.innerHTML =
       '<div class="empty-placeholder">Honors & Awards will be listed here.</div>';
   } else {
-    d.honors.forEach((h) => {
+    visibleHonors.forEach((h) => {
       const li = document.createElement("li");
       li.className = "honor-item";
       li.innerHTML = `
@@ -179,11 +181,12 @@
   }
 
   const pubEl = document.getElementById("pub-list");
-  if (d.publications.length === 0) {
+  const visiblePublications = d.publications.filter((item) => !item.hidden);
+  if (visiblePublications.length === 0) {
     pubEl.innerHTML =
       '<div class="empty-placeholder">Publications will be listed here.</div>';
   } else {
-    d.publications.forEach((p) => {
+    visiblePublications.forEach((p) => {
       const div = document.createElement("div");
       div.className = "pub-item";
 

@@ -2,9 +2,9 @@ const siteData = {
     profile: {
       name: "Aoxue Dai",
       photo: "figures/profile.jpg",
-      title: "Junior Student in Computer Science and Technology",
+      title: "Undergraduate Student in Computer Science and Technology",
       affiliation: "Dalian University of Technology",
-      bio: `Junior student at <a href="https://www.dlut.edu.cn/" target="_blank">Dalian University of Technology</a>, majoring in Computer Science and Technology. Currently, I have a weighted average score of 91.34 and have been awarded the National Scholarship for two consecutive years. My research interests are primarily focused on vision-language models and reasoning models. Sincerely looking for Ph.D./Master's positions for fall 2027 admission!`,
+      bio: `I am an undergraduate student at <a href="https://www.dlut.edu.cn/" target="_blank">Dalian University of Technology</a>, majoring in Computer Science and Technology. Currently, I have a weighted average score of 91.34 and have been awarded the National Scholarship for two consecutive years. My research interests focus on World Action Models. Sincerely looking for Ph.D./Master's positions for fall 2027 admission!`,
       email: "AoxueDai0219@gmail.com",
     },
   
@@ -29,16 +29,10 @@ const siteData = {
       //   url: "https://www.xiaohongshu.com/user/profile/65086bf60000000012004513",
       //   icon: "figures/icons/xiaohongshu.svg",
       // },
-      {
-        name: "CV",
-        url: "cv.html?v=20260617",
-        icon: "figures/icons/cv.svg",
-      },
     ],
   
     researchInterests: [
-      "Vision-Language Models",
-    //   "Reinforcement Learning",
+      "World Action Model",
     ],
   
     academicJourney: [
@@ -52,18 +46,19 @@ const siteData = {
     ],
   
     news: [
-      { date: "Jul. 2026", content: "One paper was accepted to ECCV 2026!" },
+      { date: "Jul. 2026", content: "One paper was accepted to ECCV 2026!", hidden: true },
     ],
   
     honors: [
       { title: "National Scholarship, China", date: "2023-2024" },
       { title: "National Scholarship, China", date: "2024-2025" },
-      { title: "The Global Campus Artificial Intelligence Algorithm Elite Competition, National Second Prize", date: "2025.12" },
+      { title: "The Global Campus Artificial Intelligence Algorithm Elite Competition, National Second Prize", date: "2025.12", hidden: true },
     ],
 
     publications: [
       {
         title: "Contrastive-Guided Self-Supervised Latent Visual Reasoning for Hallucination Mitigation",
+        hidden: true,
         authors: "Aoxue Dai, et al.",
         venue: "European Conference on Computer Vision (ECCV), 2026",
         venueShort: "ECCV 2026",
