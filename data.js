@@ -4,7 +4,7 @@ const siteData = {
       photo: "figures/profile.jpg",
       title: "Undergraduate Student in Computer Science and Technology",
       affiliation: "Dalian University of Technology",
-      bio: `I am an undergraduate student at <a href="https://www.dlut.edu.cn/" target="_blank">Dalian University of Technology</a>, majoring in Computer Science and Technology. I have been pre-admitted to <a href="https://www.ustc.edu.cn/" target="_blank">University of Science and Technology of China</a> for master's study. Currently, I have a weighted average score of 91.34 and have been awarded the National Scholarship for two consecutive years. My research interests focus on World Action Models.`,
+      bio: `I am an undergraduate student at <a href="https://www.dlut.edu.cn/" target="_blank">Dalian University of Technology</a>, majoring in Computer Science and Technology. I have been pre-admitted to <a href="https://www.ustc.edu.cn/" target="_blank">University of Science and Technology of China</a> for master's study. My research interests focus on World Action Models.`,
       email: "AoxueDai0219@gmail.com",
     },
   
